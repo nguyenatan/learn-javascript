@@ -10,4 +10,4 @@ function updateArray(array, element) {
 	console.log(array);
 }
 
-updateArray(array, 'd');
+updateArray(array, 'd'); // ["a", "b", "c", "d"]
