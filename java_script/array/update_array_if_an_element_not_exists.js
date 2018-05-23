@@ -4,7 +4,7 @@ function updateArray(array, element) {
 	if (!~array.indexOf(element))
 		array.push(element);
 	
-	console.log(array);
+	return array;
 }
 
-updateArray(array, 'd'); // ["a", "b", "c", "d"]
+console.log(updateArray(array, 'd')); // ["a", "b", "c", "d"]
