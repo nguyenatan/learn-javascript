@@ -6,7 +6,7 @@ function occurrenceIndex(array, element) {
 	var index = array.indexOf(element);
 	while (index != -1) {
 		indices.push(index);
-		index = array.indexOf(element, index+1);
+		index = array.indexOf(element, index + 1);
 	}
 	
 	return indices;
