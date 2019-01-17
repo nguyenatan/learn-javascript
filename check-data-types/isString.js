@@ -2,5 +2,5 @@
 // Except if called with new (new String) typeof will instead return "object".
 // So to also include those strings instanceof can be used.
 function isString(value) {
-  return typeof value === "string" || value instanceof String
+  return typeof value === 'string' || value instanceof String
 }
