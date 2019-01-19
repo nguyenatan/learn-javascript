@@ -1,4 +1,4 @@
-// Return if a value is really an array
+// Returns if a value is really an array
 function isArray(value) {
   return value && typeof value === 'object' && value.constructor === Array;
 }
